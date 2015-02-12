@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+
+<title>Login - Mondelez Leave Tracker</title>
+<style type="text/css">
+.form
+{
+	left: 42.1%;
+	top: 39%;
+	position: absolute;
+}
+.button
+{
+	left: 620px;
+	position: absolute;
+	top: 302px;
+	width: 93px;
+	height: 37px;
+	opacity: 0.7;
+	border-color: #09F6C4;
+	border-radius: 15px;
+	background: none repeat scroll 0% 0% #00FFC0;
+}
+</style>
+
+</head>
+<body background="./images/blue_lake_7_1920x1200.jpg">
+<!--to transparency of the background image  -->
+<div style="height: 100%;
+position: absolute;
+background: none repeat scroll 0% 0% black;
+opacity: 0.7;
+left: 0px;
+top: 0px;
+width: 100%;">
+</div>
+
+<div class="form">
+<span style="width: 338px;
+height: 262px;
+background: none repeat scroll 0% 0% #F7FAFB;
+position: absolute;
+opacity: 0.2;
+left: -47px;
+top: -56px;
+border: 2px solid white;
+border-radius: 35px;">
+</span>
+
+	<form action="handler.php" name="loginform" method="POST">		
+		<input type="text" name="username" placeholder="Username" style="width: 235px; height: 41px; border-radius: 10px;opacity: 0.5;border: 2px solid white"/><br><br>
+		<input type="password" name="password" placeholder="Password" style="width: 235px; height: 41px; border-radius: 10px;opacity: 0.5;border: 2px solid white"/><br><br>	
+		
+		<input style="left: 75px;
+position: absolute;
+top: 130px;
+width: 93px;
+height: 37px;
+opacity: 0.7;
+border: 2px solid rgb(0, 255, 192);
+border-radius: 15px;
+background: none repeat scroll 0% 0% #00FFC0;" type="submit" name="submit" value="Sign in" />
+	</form>
+</div>
+<div style="position:absolute;color:white;left: 35%;"><h1 style="" align="center">Mondelez Leave Tracker</h1></div>
+<footer align="center" style="left: 45%;position: absolute;top: 95%;color:whitesmoke">
+All rights are reserved.
+</footer>
+
+
+</body>
+</html>
